@@ -1,0 +1,46 @@
+body{
+	background-color: cornsilk;
+}
+.card-container{
+	width: 300px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-style: solid;
+	border-color: green;
+	border-radius: 25px;
+}
+.upper-container{
+	height: 200px;
+	border-radius: 23px;
+}
+.upper-container img{
+	width: 200px;
+	height: 200px;
+	transform: translate(50px,0px);
+	border-radius: 100px;
+}
+.lower-container{
+	padding: 20px;
+	text-align: center;
+	border-radius: 25px;
+}
+.lower-container h4{
+	color: rgb(0, 135, 255);
+	font-weight: bold;
+}
+
+.lower-container .btn{
+	padding: 12px 20px;
+	background: rgb(0, 135, 0);
+	color: white;
+	border-radius: 30px;
+	font-weight: bold;
+}
+.lower-container .btn:hover{
+	background: transparent;
+	color: rgb(0, 135, 0);
+	border: 2px solid rgb(0, 135, 0);
+}
